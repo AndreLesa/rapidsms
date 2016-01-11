@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.core.urlresolvers import reverse
-from django.conf.urls.defaults import *
 
+from django.conf.urls import patterns, url
 from rapidsms.backends.kannel import views
 from rapidsms.backends.kannel import KannelBackend
 from rapidsms.backends.kannel.forms import KannelForm
